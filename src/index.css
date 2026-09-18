@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --primary: 346 100% 65%;
+    --primary-foreground: 210 40% 98%;
+    --ring: 346 100% 65%;
+    --radius: 0.5rem;
+  }
+}
+
+body {
+  @apply bg-background text-foreground font-sans;
+}
